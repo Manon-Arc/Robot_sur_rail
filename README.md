@@ -38,6 +38,7 @@ L'objectif de ce projet est de créer un robot assistant mobile sur rail qui peu
 - [ESP32-WROOM 32](/Datasheet/DS_ESP32-WROOM32.pdf) (X1)
 - [L298N](/Datasheet/DS_L298N.pdf) (X1)
 - boutons poussoires (X3)
+- [roues pour imprimantes 3D](https://www.amazon.fr/Imprimante-Roulement-Linéaire-Plastique-Roulements/dp/B0BD8XQ4Y4/ref=sr_1_22?keywords=roue+imprimante+3d&qid=1686215897&sr=8-22) (X3)
 
 ---
 ## **Notice:**
