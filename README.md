@@ -35,6 +35,8 @@ visuel : https://a360.co/3oJu6gQ
 ## **Composants:**
 
 - [Profilé 20X40](/Datasheet/DS_Profil%C3%A9.pdf) (quantité au choix)
+- Patte d'assemblage (X3)
+- Ecrou en T (X3)
 - [Moteur à courant continu](/Datasheet/DS_moteurDC.pdf) (X1)
 - [Capteur de proximité inductif](/Datasheet/DS_capteurInductif.pdf) (X1)
 - [ESP32-WROOM 32](/Datasheet/DS_ESP32-WROOM32.pdf) (X1)
@@ -50,7 +52,7 @@ visuel : https://a360.co/3oJu6gQ
     1. Mettre le [code](/Code/rail.py) sur l'ESP32.
     2. Faire le câblage électrique et l'ajouter dans le compartiment dédié.
     3. Fixer le moteur DC, le capteur inductif ainsi que les boutons poussoires dans les emplacements prévus à ces effets.
-    4. Fixer les équerres plates aux profiléx au niveau des postes de travail souhaités. 
+    4. Fixer les pattes d'assemblages aux profilé à l'aide des vis en T au niveau des postes de travail souhaités. 
     5. Enfiler l'extrémité du rail (profilé) dans le premier support.
     6. Faire coulisser le robot sur le rail.
     7. Enfiler le deuxième support de l'autre côté du rail
