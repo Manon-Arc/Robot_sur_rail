@@ -2,6 +2,8 @@
 
 L'objectif de ce projet est de créer un robot assistant mobile sur rail qui peut aider les utilisateurs dans leur travail. Ce robot peut être utilisé comme une troisième main, un support d'outils ou un dispositif de rangement. Son utilisation est très simple : il suffit à l'utilisateur de choisir le poste de travail où il souhaite travailler, et le robot se déplace automatiquement vers le poste sélectionné.
 
+visuel : https://a360.co/3oJu6gQ
+
 
 # **Sommaire:**
 
