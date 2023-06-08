@@ -41,7 +41,7 @@ visuel : https://a360.co/3oJu6gQ
 - [L298N](/Datasheet/DS_L298N.pdf) (X1)
 - [Boutons poussoires](/Datasheet/DS_bouton.pdf) (X3)
 - [Roues pour imprimantes 3D](https://www.amazon.fr/Imprimante-Roulement-Linéaire-Plastique-Roulements/dp/B0BD8XQ4Y4/ref=sr_1_22?keywords=roue+imprimante+3d&qid=1686215897&sr=8-22) (X3)
-- [Batterie](/Datasheet/DS_batterie.pdf)
+- [Batterie](/Datasheet/DS_batterie.pdf) (X1)
 
 ---
 ## **Notice:**
