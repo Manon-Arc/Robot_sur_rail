@@ -39,9 +39,9 @@ visuel : https://a360.co/3oJu6gQ
 - [Capteur de proximité inductif](/Datasheet/DS_capteurInductif.pdf) (X1)
 - [ESP32-WROOM 32](/Datasheet/DS_ESP32-WROOM32.pdf) (X1)
 - [L298N](/Datasheet/DS_L298N.pdf) (X1)
-- Boutons poussoires (X3)
+- [Boutons poussoires](/Datasheet/DS_bouton.pdf) (X3)
 - [Roues pour imprimantes 3D](https://www.amazon.fr/Imprimante-Roulement-Linéaire-Plastique-Roulements/dp/B0BD8XQ4Y4/ref=sr_1_22?keywords=roue+imprimante+3d&qid=1686215897&sr=8-22) (X3)
-- [Batteries](/Datasheet/)
+- [Batterie](/Datasheet/DS_batterie.pdf)
 
 ---
 ## **Notice:**
@@ -49,7 +49,7 @@ visuel : https://a360.co/3oJu6gQ
 - *Montage* <br>
     1. Mettre le [code](/Code/rail.py) sur l'ESP32.
     2. Faire le câblage électrique et l'ajouter dans le compartiment dédié.
-    3. Fixer le moteur DC ainsi que le capteur inductif dans les emplacements prévus à ces effets.
+    3. Fixer le moteur DC, le capteur inductif ainsi que les boutons poussoires dans les emplacements prévus à ces effets.
     4. Fixer les équerres plates aux profiléx au niveau des postes de travail souhaités. 
     5. Enfiler l'extrémité du rail (profilé) dans le premier support.
     6. Faire coulisser le robot sur le rail.
