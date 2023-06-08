@@ -19,7 +19,7 @@ L'objectif de ce projet est de créer un robot assistant mobile sur rail qui peu
 
 #### <u>**Programmation:**</u>
 
-- [Poste](/code/poste.py)
+- [Poste](/Code/rail.py)
 
 
 #### <u>**Electronique:**</u>
@@ -44,12 +44,13 @@ L'objectif de ce projet est de créer un robot assistant mobile sur rail qui peu
 ## **Notice:**
 
 - *Montage* <br>
-    1. Faire le câblage électrique et l'ajouter dans le compartiment dédié.
-    2. Fixer le moteur DC ainsi que le capteur inductif dans les emplacements prévus à ces effets.
-    3. Fixer les équerres plates aux profiléx au niveau des postes de travail souhaités. 
-    4. Enfiler l'extrémité du rail (profilé) dans le premier support.
-    5. Faire coulisser le robot sur le rail.
-    6. Enfiler le deuxième support de l'autre côté du rail
+    1. Mettre le [code](/Code/rail.py) sur l'ESP32.
+    2. Faire le câblage électrique et l'ajouter dans le compartiment dédié.
+    3. Fixer le moteur DC ainsi que le capteur inductif dans les emplacements prévus à ces effets.
+    4. Fixer les équerres plates aux profiléx au niveau des postes de travail souhaités. 
+    5. Enfiler l'extrémité du rail (profilé) dans le premier support.
+    6. Faire coulisser le robot sur le rail.
+    7. Enfiler le deuxième support de l'autre côté du rail
        travail.
 - *Utilisation*
     1. Appuyer sur le bouton du poste souhaité.
