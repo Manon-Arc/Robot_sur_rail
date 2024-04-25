@@ -1,70 +1,70 @@
-# **Robot-assistant sur rail**
+# Rail-mounted Robot Assistant
 
-L'objectif de ce projet est de créer un robot assistant mobile sur rail qui peut aider les utilisateurs dans leur travail. Ce robot peut être utilisé comme une troisième main, un support d'outils ou un dispositif de rangement. Son utilisation est très simple : il suffit à l'utilisateur de choisir le poste de travail où il souhaite travailler, et le robot se déplace automatiquement vers le poste sélectionné.
+The objective of this project is to create a mobile rail-mounted robot assistant that can aid users in their tasks. This robot can be used as a third hand, a tool support, or a storage device. Its usage is straightforward: the user simply selects the workstation where they want to work, and the robot automatically moves to the selected workstation.
 
-visuel : https://a360.co/3oJu6gQ
+**Visual:** [https://a360.co/3oJu6gQ](https://a360.co/3oJu6gQ)
 
+## Table of Contents:
 
-# **Sommaire:**
+- [Implementation](#implementation)
+    - [Programming](#programming)
+    - [Electronics](#electronics)
+    - [Mechanics](#mechanics)
+- [Components](#components)
+- [Instructions](#instructions)
+- [Enhancements](#enhancements)
 
-- [Réalisation](#réalisation)
-    - [Programmation](#programmation)
-    - [Electronique](#electronique)
-    - [Mécanique](#mécanique)
-- [Composants](#composants)
-- [Notice](#notice)
-- [Amélioration](#amélioration)
+---
+
+## Implementation:
+
+#### **Programming:**
+
+- [Code](/Code/rail.py)
+
+#### **Electronics:**
+
+- [Wiring Diagram](/Electronics/workstation.kicad_sch)
+
+#### **Mechanics:**
+
+- [Project Modeling](/3D_Modeling/rail-mounted_robot.f3z)
 
 ---
 
-## **Réalisations:**
+## Components:
 
-#### <u>**Programmation:**</u>
-
-- [Poste](/Code/rail.py)
-
-
-#### <u>**Electronique:**</u>
-- [Schéma de câblage](/Electronique/poste.kicad_sch)
-
-
-#### <u>**Mécanique:**</u>
-- [Modélisation projet](/Mod%C3%A9lisation_3D/robot_sur_rail.f3z)
-
----
-## **Composants:**
-
-- [Profilé 20X40](/Datasheet/DS_Profil%C3%A9.pdf) (quantité au choix)
-- Patte d'assemblage (X3)
-- Ecrou en T (X3)
-- [Moteur à courant continu](/Datasheet/DS_moteurDC.pdf) (X1)
-- [Capteur de proximité inductif](/Datasheet/DS_capteurInductif.pdf) (X1)
+- [20X40 Profile](/Datasheet/DS_Profile.pdf) (quantity as needed)
+- Assembly Bracket (X3)
+- T-Nut (X3)
+- [DC Motor](/Datasheet/DS_DC_motor.pdf) (X1)
+- [Inductive Proximity Sensor](/Datasheet/DS_inductive_sensor.pdf) (X1)
 - [ESP32-WROOM 32](/Datasheet/DS_ESP32-WROOM32.pdf) (X1)
-- [L298N](/Datasheet/DS_L298N.pdf) (X1)
-- [Boutons poussoires](/Datasheet/DS_bouton.pdf) (X3)
-- [Roues pour imprimantes 3D](https://www.amazon.fr/Imprimante-Roulement-Linéaire-Plastique-Roulements/dp/B0BD8XQ4Y4/ref=sr_1_22?keywords=roue+imprimante+3d&qid=1686215897&sr=8-22) (X3)
-- [Batterie](/Datasheet/DS_batterie.pdf) (X1)
-
----
-## **Notice:**
-
-- *Montage* <br>
-    1. Mettre le [code](/Code/rail.py) sur l'ESP32.
-    2. Faire le câblage électrique et l'ajouter dans le compartiment dédié.
-    3. Fixer le moteur DC, le capteur inductif ainsi que les boutons poussoires dans les emplacements prévus à ces effets.
-    4. Fixer les pattes d'assemblages aux profilé à l'aide des vis en T au niveau des postes de travail souhaités. 
-    5. Enfiler l'extrémité du rail (profilé) dans le premier support.
-    6. Faire coulisser le robot sur le rail.
-    7. Enfiler le deuxième support de l'autre côté du rail
-       travail.
-- *Utilisation*
-    1. Appuyer sur le bouton du poste souhaité.
+- [L298N Motor Driver](/Datasheet/DS_L298N.pdf) (X1)
+- [Push Buttons](/Datasheet/DS_button.pdf) (X3)
+- [3D Printer Wheels](https://www.amazon.com/Printer-Bearing-Plastic-Bearings-Machined/dp/B0BD8XQ4Y4/ref=sr_1_22?keywords=3d+printer+wheel&qid=1686215897&sr=8-22) (X3)
+- [Battery](/Datasheet/DS_battery.pdf) (X1)
 
 ---
 
-## **Améliorations:**
+## Instructions:
 
-Plusieurs choses peuvent-être envisagées afin d'améliorer le système : <br>
-    - Terminer la modélisation 3D afin d'avoir des pièces imprimables et fonctionnelles. <br>
-    - Ajouter des pinces croco sur le côté gauche pour permettre au robot de servir de 3e main.
-    
+- **Assembly**
+    1. Upload the [code](/Code/rail.py) to the ESP32.
+    2. Perform the electrical wiring and place it in the dedicated compartment.
+    3. Mount the DC motor, the inductive sensor, and the push buttons in their designated slots.
+    4. Attach the assembly brackets to the profile using T-nuts at the desired workstations.
+    5. Slide one end of the rail (profile) into the first support.
+    6. Slide the robot along the rail.
+    7. Slide the second support onto the other end of the rail.
+
+- **Usage**
+    1. Press the button corresponding to the desired workstation.
+
+---
+
+## Enhancements:
+
+Several enhancements can be considered to improve the system:
+    - Complete the 3D modeling to have printable and functional parts.
+    - Add alligator clips on the left side to enable the robot to act as a third hand.
